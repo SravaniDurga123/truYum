@@ -1,0 +1,127 @@
+body {
+    margin: 0px;
+    
+    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),
+url('../Images/header.jpg');
+
+}
+nav {
+    background-color: blue;
+  height: 60px;
+
+}
+.title {
+   color:white;
+    font-size: 40px;
+    
+}
+img {
+    margin-top: 9px;
+    width: 50px;
+    height: 50px;
+}
+ .menu  a{
+    float: right;
+    margin-top: -40px;
+    margin-right: 100px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+ .cart a{
+    float: right;
+    margin-top: -40px;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.list h3 {
+    margin-top: 40px;
+    margin-left: 150px;
+    font-size: 40px;
+}
+.table {
+    margin-left: 150px;
+}
+th {
+    padding: 20px;
+}
+td{
+    text-align: center;
+    font-weight: bold;
+}
+footer {
+    margin-top: 240px;
+    background-color: black;
+    height: 40px;
+    width: 1500px;
+  position: fixed;
+}
+ .text p{
+    text-align: left;
+    margin-left: 30px;
+    font-size: 15px;
+    color: white;
+}
+.icons {
+    float: right;
+    color: white;
+    margin-left: 50px;
+    margin-top: -20px;
+    font-size: 20px;
+}
+.name {
+    margin-left: 300px;
+}
+.name input[type="text"]{
+    width: 500px;
+}
+.item {
+    height:90px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.edit {
+      margin-top:40px;
+}
+#price  {
+    width: 50px;
+}
+.item table th,td{
+    padding: 0px;  
+    
+}
+.delivery {
+    margin-top: 20px;
+}
+.savebtn {
+    margin-top: 20px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    border: none;
+}
+.editstatus {
+    margin-top: 150px;
+    margin-left: 150px;
+    font-size: 30px;
+
+}
+.status p{
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 20px;
+    color: green;
+}
+.cartadded p{
+    margin-top: -33px;
+    margin-left: 400px;
+    color: green;
+    font-weight: bold;
+}
+.table td{
+    padding: 2px;
+}

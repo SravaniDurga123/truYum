@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./Styles/style.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+        <script  src="./Js/javascipt.js"defer></script> 
+        
+
+    </head>
+    <body>
+        <header>
+            <nav class="nav navbar ">
+                <div class="title">TruYum <span><i class="fa fa-cutlery fa-2" aria-hidden="true"></i></span></div>
+                
+                 <div class="menu"><a href="MenuItemListCustomer.html">Menu</a></div>
+                 <div class="cart"><a href="MenuItemListCustomerNotification.html">Cart</a></div>
+            </nav>
+        </header>
+        <div class="list">
+            <h3>Menu Items</h3>
+        </div>
+        <div class="table">
+          <table border="0">
+              <tr>
+                
+                      <th>Name</th>
+                       <th></th>
+                       <th>Free Delivery</th>
+                       <th>Price</th>
+                       <th>Category</th>
+                       <th>Action</th>
+                  
+              </tr>
+              <tr>
+                  <td>Sandwich</td>
+                  <td></td>
+                  <td>Yes</td>
+                  <td>$99.00</td>
+                  <td>Main Course</td>
+                   <td><a href="#" onclick="addtocart('Sandwich','Yes','99','MainCouse')">Add to Cart</a></td>
+              </tr>
+              <tr>
+                <td>Burger</td>
+                  <td></td>
+                  <td>No</td>
+                  <td>$129.00</td>
+                  <td>Main Course</td>
+                   <td><a href="MenuItemListCustomerNotification.html" onclick="addtocart('Burger','No','$129','MainCourse')">Add to Cart</a></td>
+            </tr>
+            <tr>
+                <td>Pizza</td>
+                  <td></td>
+                  <td>No</td>
+                  <td>$149.00</td>
+                  <td>Main Course</td>
+                   <td><a href="MenuItemListCustomerNotification.html" onclick="addtocart('Pizza','No','$149','MainCourse')">Add to Cart</a></td>
+            </tr>
+            <tr>
+                <td>French Fries</td>
+                  <td></td>
+                  <td>Yes</td>
+                  <td>$57.00</td>
+                  <td>Starters</td>
+                   <td><a href="MenuItemListCustomerNotification.html" onclick="addtocart('FrenchFries','Yes','57','Starters')">Add to Cart</a></td>
+            </tr>
+            <tr>
+                <td>Chocolate Brownies</td>
+                  <td></td>
+                  <td>Yes</td>
+                  <td>$32.00</td>
+                  <td>Dessert</td>
+                   <td><a href="MenuItemListCustomerNotification.html" onclick="addtocart('chocolateBrownies','Yes','32','Dessert')">Add to Cart</a></td>
+            </tr>
+          </table>
+        </div>
+        <!-- <footer>
+            <div class="text">
+                <p>copyight @ 2019</p>
+            </div>
+            <div class="icons">
+                <span><i class="fa fa-facebook" aria-hidden="true"><i class="fa fa-twitter" aria-hidden="true"></i></i></span>
+            </div>
+        </footer> -->
+        <script  src="./Js/javascipt.js" ></script> 
+        
+    </body>
+</html>

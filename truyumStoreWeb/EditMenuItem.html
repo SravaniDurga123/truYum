@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./Styles/style.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <header>
+            <nav class="nav navbar ">
+                <div class="title">TruYum <span><span><i class="fa fa-cutlery fa-2" aria-hidden="true"></i></span></span></div>
+                
+                 <div class="menu"><a href="#">Products</a></div>
+            </nav>
+        </header>
+        <div class="list">
+            <h3> Edit Menu Item</h3>
+        </div>
+        <div class="Edit">
+            <div class="name">
+                <label for="name">Name</label><br><input type="text" value="Sandwich" disabled>
+            </div >
+            <div class="item">
+              <table>
+                
+                  <tr>
+                      <th>Price</th>
+                      <th>Active</th>
+                      <th>Date of Launch</th>
+                      <th>Category</th>
+                  </tr>
+                  <tr>
+                      <td><input type="text" value="99" id="Price"></td>
+                      <td><input type="radio" checked="checked"><label for="active">Yes </label>
+                       <input type="radio"><label for="active">No</label> </td>
+                       <td><input type="text" value="27/04/2022"></td>
+                       <td>
+                           <select for="category">
+                               <option value="MainCourse">MainCourse</option>
+                               <option value="starters">starters</option>
+                               <option value="MainCourse">MainCourse</option>
+                               <option value="Dessert">Dessert</option>
+                               <option value="Drinks">Drinks</option>
+                           </select>
+                       </td>
+                  </tr>
+              </table>
+               <div class="delivery">
+                   <input type="checkbox" checked><label for="delivery">Free Delivery</label>
+               </div>
+               <div class="savebtn">
+                   <button type="submit" value="Save">Save</button>
+               </div>
+            </div>
+        </div>
+        <footer>
+            <div class="text">
+                <p>copyight @ 2019</p>
+            </div>
+        </footer>
+    </body>
+</html>
